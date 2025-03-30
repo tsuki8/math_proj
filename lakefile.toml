@@ -1,0 +1,14 @@
+name = "math-proj"
+version = "0.1.0"
+defaultTargets = ["math-proj"]
+
+[[lean_lib]]
+name = "MathProj"
+
+[[lean_exe]]
+name = "math-proj"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
